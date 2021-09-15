@@ -1,0 +1,241 @@
+.contenedora {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courgette', cursive;
+    border: #42E0FF solid 10px;
+    background-image:url(imagenes/cieloazul.jpg);
+}
+
+header {
+    background-color: #379EB3;
+    float: left;
+    width: 1200px;
+    margin-left: 60px;
+    border-radius: 8px;
+    flex-wrap: inherit;
+    margin-top: 30px;
+}
+
+.titulo1 {
+    text-align: center;
+    flex-wrap: inherit;
+}
+
+.imagen1 {
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    flex-wrap: inherit;
+    width: 15em;
+}
+
+.text1 {
+    width: 70%;
+    font-size: medium;
+    margin-left: 40px;
+    flex-wrap: inherit;
+    float: left;
+}
+
+main {
+    background-color: #FFC336;
+    width: 1200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4.5%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+    border-radius: 8px;
+}
+
+.aside1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+iframe {
+    border: #5929FF solid 10px;
+    border-radius: 30px;
+}
+
+.titulo-aside1 {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.vid-aud2 {
+    flex-direction: row;
+    flex-wrap: inherit;
+}
+
+.vid {
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+    flex-wrap: inherit;
+    width: 40%;
+    height: 300px;
+}
+
+.aud {
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    flex-wrap: inherit;
+}
+
+.aside2 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table {
+    margin: 0% auto;
+    flex-wrap: inherit;
+}
+
+table {
+    border: 1px solid black;
+    flex-wrap: inherit;
+}
+
+table th {
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: inherit;
+}
+
+table td {
+    border: 1px solid black;
+    flex-wrap: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    flex-wrap: inherit;
+}
+
+table th {
+    background-color: grey;
+    flex-wrap: inherit;
+}
+
+.fila1 {
+    flex-wrap: inherit;
+    background-color: grey;
+}
+
+tfoot td {
+    border: none;
+    flex-wrap: inherit;
+}
+
+.img {
+    border: #5929FF solid 10px;
+    border-radius: 10px;
+    width: 400px;
+    flex-wrap: inherit;
+}
+
+.momentos-felices {
+    text-align: center;
+    margin-top: 100px;
+    flex-wrap: inherit;
+    float: left;
+}
+
+.descripcion-momentos {
+    width: 45%;
+    margin-left: 28%;
+    color: #17202A;
+    margin-bottom: 100px;
+    display: f;
+    flex-wrap: inherit;
+}
+
+.reto4 {text-align: center; background-color: #17202A; 
+    border: #626567 solid 10px;}
+
+.vid2 {border: #626567 solid 10px ;}
+
+.videoterror {font-size: 30px;
+color: #626567;}
+
+footer {
+    background-color: #379EB3;
+    color: black;
+    font-size: 15px;
+    float: left;
+    padding: 20px;
+    width: 1160px;
+    margin-left: 4.5%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+    border-radius: 8px;
+    letter-spacing: 1px
+}
+
+@media (max-width:600px) {
+    .contenedora {
+        width: 37em;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        margin-right: 20px;
+        width: 36em;
+        position: relative;
+        right: 15px;
+    }
+}
+
+@media (max-width:600px) {
+    main {
+        width: 32em;
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .aside1 {
+        width: 32em;
+    }
+    .titulo-aside1 {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .vid {
+        margin-left: 10px;
+    }
+    .vid h2 {
+        margin-left: 50px;
+        width: 15em;
+    }
+}
+
+@media (max-width:600px) {
+    .aside2 {
+        width: 32em;
+    }
+}
+
+@media (max-width:600px) {
+    footer {
+        width: 23.5em;
+        margin-left: 48px;
+    }
+}
